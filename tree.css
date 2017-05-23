@@ -1,0 +1,19 @@
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  background: rgb(242, 240, 240);
+  border-radius: 5px;
+  box-shadow: 10px 10px 50px #888888;
+
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-left: 20px;
+}
