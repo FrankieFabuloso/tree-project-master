@@ -1,19 +1,106 @@
+html {
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  color: #555;
+}
 
-.wrapper {
+.filesystem {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 350px;
   margin: auto;
-  background: rgb(242, 240, 240);
-  border-radius: 5px;
+  background: #f9f9f9;
+  border-radius:5px;
   box-shadow: 10px 10px 50px #888888;
+}
 
+.filesystem > * {
+  padding: 10px 13px;
+}
+
+.filesystem-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filesystem-content {
+  border-bottom: 1px solid #dddddd;
+  background-color: white;
+}
+
+.filesystem-title {
+  font-size: 13px;
+}
+
+.filesystem-done {
+  color: white;
+  background-color: #3e7bac;
+  padding: 10px 15px;
+  border-radius: 2px;
+}
+
+.filesystem-header {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dddddd;
+  border-top-right-radius: 5px;
+  border-top-left-radius:5px;
+  padding: 15px 10px;
+}
+
+.filesystem-label {
+  color: #cacaca;
+  border-bottom: 1px solid #dddddd;
+}
+
+.filesystem-link > a {
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.file-node-container, .text-node-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.file-node-container > *{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.text-node-container {
+  padding-top: 10px;
+  width: 100%;
+}
+
+.filesystem-actions{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.toggle-button {
+  padding-top: 12px;
+}
+
+.image-ex {
+  height: 12px;
+}
+img {
+  padding-right: 10px;
+  opacity: 0.5;
 }
 
 ul {
   list-style: none;
-}
-
-li {
-  padding-left: 20px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
 }
